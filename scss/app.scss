@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+@import "includes/custom";
+@import "includes/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+.banner{
+  background: url('../img/headerBG.jpg') left top repeat;
+  min-height: 600px;
+}
+.banner .container{
+  max-width: 985px;
+}
+.banner h2, .banner p{
+  font-family: 'Pacifico';
+  color: #fff;
+  font-size: 4.6em;
+  text-shadow: 3px 3px rgba(0, 0, 0, .25);
+  margin: 0 0 50px 0;
+}
+.banner p{
+  font-family: 'Helvetica', Arial;
+  text-shadow: 2px 3px rgba(0, 0, 0, .25);
+  font-size: 1.56em;
+  margin: 0 0 25px 8px;
+}
+.banner .row div img, .banner .row div .bannerText{
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
+  margin-bottom: 20px;
+}
+ .banner .row div .bannerText{
+   top: 50%;
+   transform: translateY(-50%);
+ }
+ .phoneIcon{
+   height: 53px;
+   width: 53px;
+   opacity: .5;
+   background: rgba(255,255,255,1);
+   cursor: pointer;
+ }
+ .phoneIcon:hover{
+   opacity: 1;
+ }
+ #craze-features .row h2, #whats-craze-all-about .row h2, #pricing-plans h2, #say-hi-e-get-in-touch h2{
+   font-family: 'MyriadPro', PT Sans;
+   font-weight: 900;
+   margin: 60px auto 30px auto;
+   font-size: 1.875em;
+ }
+ #craze-features .row p, #whats-craze-all-about .row p, #whats-craze-all-about .row li, #pricing-plans p, #say-hi-e-get-in-touch p{
+   font-family: 'Helvetica', Arial;
+   color: #848484;
+   font-size: 1em;
+ }
+ #craze-features .craze-features-items h2{
+   font-size: 1.5em;
+   margin: 30px auto;
+ }
+ #craze-features .craze-features-items img{
+   height: 42px;
+   width: auto;
+ }
+ #craze-features .craze-features-items p{
+   margin-bottom: 60px;
+ }
+ #craze-features .craze-features-items{
+   margin-bottom: 50px;
+ }
+ #whats-craze-all-about{
+   background: #e7e7e7;
+   padding-bottom: 60px;
+ }
+ #pricing-plans{
+   background: linear-gradient(to bottom, #e7e7e7 0%,#e7e7e7 88%,#FFF 88%, #FFF 100%);
+ }
+ #whats-craze-all-about li{
+   list-style-image: url('../img/bullet.gif');
+   margin-left: 20px;
+ }
+ #whats-craze-all-about .embed-responsive{
+   margin-top: 60px;
+ }
+ .card-header, .card-footer .btn{
+   font-family: 'MyriadPro', PT Sans;
+   font-weight: 900;
+   font-size: 1.750em;
+   color: #FFF;
+ }
+ .card-footer .btn{
+   font-size: 0.938em;
+ }
+ .card-body h5{
+   font-family: 'Novecento Wide', Montserrat;
+   font-weight: 600;
+   font-size: 2.625em;
+   color: #000;
+ }
+ .card-body span{
+   font-family: 'Helvetica', Arial;
+   color: #848484;
+   font-size: 1em;
+ }
+ .card:hover{
+   box-shadow: 1px 2px 15px 0px;
+   z-index: 9999;
+ }
+ .socialIcons{
+   background: #d4d4d4;
+   height: 34px;
+   width: 34px;
+   cursor: pointer;
+ }
+ .socialIcons:hover{
+   background: #3498db;
+ }
+ .socialIcons img{
+   padding: 8px 0;
+ }
+ #footer{
+   background: #e7e7e7;
+   margin-top: 50px;
+   padding: 50px 0;
+ }
+ #footer a{
+   font-family: 'Helvetica', Arial;
+   color: #848484;
+   font-size: 1em;
+ }
+ #testimonials{
+   padding-top: 60px;
+ }
+ #testimonials p{
+   font-family: 'Helvetica', Arial;
+   color: #848484;
+   font-style: italic;
+   font-size: 1.5em;
+ }
+ #testimonials h5{
+   font-family: 'MyriadPro', PT Sans;
+   font-weight: 900;
+   color: #000;
+   font-style: normal;
+   font-size: 1.125em;
+   margin: 0 auto;
+ }
+ .content-slide{
+   display: none;
+   opacity: 0;
+ }
+ .content-slide-active{
+   display: block;
+ }
+ .testimonials-navigation{
+   background: #FFF;
+   border: 2px solid #3498db;
+   height: 15px;
+   width: 15px;
+   margin: 60px auto;
+   cursor: pointer;
+ }
+ .testimonials-navigation.active{
+   background: #3498db;
+ }
+ .transition{
+   -webkit-transition: all 500ms ease;
+   -moz-transition: all 500ms ease;
+   -ms-transition: all 500ms ease;
+   -o-transition: all 500ms ease;
+   transition: all 500ms ease;
+ }
